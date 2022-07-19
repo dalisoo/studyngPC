@@ -31,6 +31,7 @@ body {
     width:150px;
     font-size:3rem;
     color: white;
+    margin-left: 60px;
 }
 #box p { 
     font-size:1.5rem;
@@ -55,12 +56,22 @@ body {
 }
 
 .filmes img { 
-    width:200px;
-    height:280px;
+    width:220px;
+    height:320px;
     border-radius:10px;
     border: 5px solid rgba(73, 49, 6, 0.57);
     margin-left: 60px;
+    margin-bottom:5px;
+    background-position: center;
 }
+
+#foto1,#foto2,#foto3,#foto4 { 
+    background-size: cover;
+    border: none;
+    padding:0;
+    border-radius: 2px;
+}
+
 
 #erased, #naruto, #hxh, #inazuma{ 
     flex-direction: column;
@@ -87,12 +98,14 @@ body {
         background-color: white;
         margin-left:30px;
         text-align: center;
+        margin-right:5px;
 
 }
 #erased input:checked + label::before, #hxh input:checked + label::before, #inazuma input:checked + label::before , #naruto input:checked + label::before  { 
     background-color: rgb(0, 0, 0);
     border: 1px solid rgba(0, 0, 0, 0.495);
     text-align: center;
+    
     
     
 }
@@ -114,11 +127,13 @@ body {
 
 #btn { 
     width:150px;
-    height:40px;
-    font-size:1.3rem;
+    height:35px;
+    font-size:1.4rem;
     background-image: linear-gradient(to left, rgb(139, 96, 32), #ff7b00);
     cursor: pointer;
     border: 1px solid rgba(0, 0, 0, 0.64);
+    margin-left:100px;
+    margin-top:10px;
 
 } 
 
@@ -130,9 +145,15 @@ body {
 #res3,#res1,#res2 { 
     color:black;
     font-size:1rem;
-    padding:10px;
+    padding:6px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+}
+#nome1 { 
+    margin-left:10px;
+}
+#nome2,#nome3,#nome4 { 
+    margin-left:21px;
 }
 
 @media (max-width:850px) { 
@@ -188,6 +209,8 @@ body {
         border: 5px solid rgba(110, 74, 8, 0.404);
         margin:10px;
     }
+
+    
     #erased, #naruto, #hxh, #inazuma{ 
         flex-direction: column;
         width: 200px;
