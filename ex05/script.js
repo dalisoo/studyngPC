@@ -1,6 +1,6 @@
 function relogar() { 
    var data = new Date ()
-   var hora = 20
+   var hora = data.getHours()
    var bgImg = document.getElementById('res')
    var bgRes = document.getElementById('res1')
    var bgRes1 = document.getElementById('res2')
