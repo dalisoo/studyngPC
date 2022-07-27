@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculo de juros </title>
+</head>
+<body>
+    <main>
+        <section id="box">
+            <div id="formulario">
+                <h1> FORMULÁRIO AQUI DE CÁLCULO DE JUROS </h1>
+                <p> No formulário abaixo digite o valor de sua divida e abaixo dele digite quantos dias se passaram desde o vencimento do boleto.</p>
+                <h3> ( Dias de atraso no máximo 30 dias. ) </h3>
+              <p>  <label for="txtn1"> Qual valor da divida? </label>  
+                <input type="number" id="txtn1" > </p> 
+              <p>  <label for="txtn2 "> Quantos dias de atraso? </label>
+                <input type="number" id="txtn2"> </p> 
+                <input type="button" value="calcular" onclick="calcular()" id="botao">
+            </div>
+            <div id="res"> As informações vão ser mostradas aqui.</div>
+            
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
