@@ -75,6 +75,13 @@ nav li > a:hover {
     color:white;
     font-family: 'Roboto Condensed', sans-serif;;
 }
+hr { 
+    width:300px;
+    height: 4px;
+    margin: auto;
+    margin-top:20px;
+    background-color: #202020;
+}
 main { 
     background: #fff url(img1/body.fundo.png);
 }
