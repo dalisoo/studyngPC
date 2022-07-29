@@ -88,7 +88,6 @@ nav li > a:hover {
     color:white;
     font-family: 'Roboto Condensed', sans-serif;;
 }
-
 hr { 
     width:300px;
     height: 4px;
@@ -115,132 +114,66 @@ container {
     flex-direction: row;
 }
 #perso1Img { 
-    width:200px;
-    height:220px;
-    padding-top:10px;
+    width:210px;
+    height:180px;
     margin:auto;
-    background-image: url(img/sapato1.png);
+    margin-bottom:55px;
+    background-image: url(img/bermuda1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     transition-duration: 0.2s;
 }
 #perso2Img { 
-    width:200px;
-    height:220px;
-    padding-top:10px;
+    width:210px;
+    height:180px;
     margin:auto;
-    background-image: url(img/sapato2.png);
+    margin-bottom:55px;
+    background-image: url(img/bermuda2.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     transition-duration: 0.2s;
 }
 #perso3Img { 
-    width:200px;
-    height:220px;
+    width:210px;
+    height:180px;
     margin:auto;
-    margin-top:20px;
-    background-image: url(img/sapato3.png);
-
+    margin-bottom:55px;
+    background-image: url(img/bermuda3.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     transition-duration: 0.2s;
 }
 #perso4Img { 
-    width:200px;
-    height:220px;
-    background-image: url(img/sapato4.png);
-    margin:auto;    
-    margin-top:10px;
+    width:210px;
+    height:180px;
+    background-image: url(img/bermuda4.jpg);
+    margin:auto;
+    margin-bottom:55px;   
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     transition-duration: 0.2s;
 }
 #perso5Img { 
-    width:200px;
-    height:220px;
-    background-image: url(img/sapato5.png);
+    width:210px;
+    height:180px;
+    background-image: url(img/bermuda5.jpg);
     margin:auto;
-    margin-top:10px;
+    margin-bottom:55px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     transition-duration: 0.2s;
 }#perso6Img { 
-    width:200px;
-    height:220px;
+    width:210px;
+    height:180px;
     padding-top:10px;
-    background-image: url(img/sapato6.png);
+    background-image: url(img/bermuda6.jpg);
     margin:auto;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    transition-duration: 0.2s;
-}
-#perso7Img { 
-    width:200px;
-    height:220px;
-    padding-top:10px;
-    margin:auto;
-    background-image: url(img/sapato7.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    transition-duration: 0.2s;
-}
-#perso8Img { 
-    width:200px;
-    height:220px;
-    padding-top:10px;
-    margin:auto;
-    background-image: url(img/sapato8.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    transition-duration: 0.2s;
-}
-#perso9Img { 
-    width:200px;
-    height:220px;
-    margin:auto;
-    margin-top:20px;
-    background-image: url(img/sapato9.png);
-
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    transition-duration: 0.2s;
-}
-#perso10Img { 
-    width:200px;
-    height:220px;
-    background-image: url(img/sapato10.png);
-    margin:auto;    
-    margin-top:10px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    transition-duration: 0.2s;
-}
-#perso11Img { 
-    width:200px;
-    height:220px;
-    background-image: url(img/sapato11.png);
-    margin:auto;
-    margin-top:10px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    transition-duration: 0.2s;
-}#perso12Img { 
-    width:200px;
-    height:220px;
-    padding-top:10px;
-    background-image: url(img/sapato12.png);
-    margin:auto;
+    margin-bottom:55px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -341,7 +274,7 @@ footer p {
         margin-top:25px;
         margin: 10px;
         padding: 5px 15px;
-        font-size:1.2rem;
+        font-size:1.3rem;
         margin-top:20px;
         margin-bottom:20px
     }
