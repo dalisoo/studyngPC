@@ -1,30 +1,30 @@
-import { tenis } from "./sapatos.js"; // importa o array de sapatos
-let bodyModal = document.querySelector('.dinamic')
+import { bermudas } from "./bermudas.js";
+let tudoModal = document.querySelector('.dinamico')
 let modelo
-let sapatos = document.querySelector('.sapatos .box1')
-let viewSapatos
+let bermu = document.querySelector('.bermudas .box1')
+let viewBermudas
 
 
-document.body.addEventListener('click',(e)=>{
-  let globalEvents = e.target // Captura se clicou na tela 
+document.body.addEventListener('click',(z)=>{
+  let tudoEvents = z.target // Captura se clicou na tela 
 
   /*Verificar se foi clicado no Close modal, se sim apaga os perimetros com InnerHTML=""
   */
- if(globalEvents.classList.contains('close-modal')){
-  bodyModal.innerHTML=""
+ if(tudoEvents.classList.contains('close-modal')){
+  tudoModal.innerHTML=""
  }
 
  /* Verifica se clicou no botão de contatar, se sim é rederecionado pro wpp */
 
- if(globalEvents.classList.contains('contact')){
+ if(tudoEvents.classList.contains('contact')){
   window.open(`https://api.whatsapp.com/send/?phone=5581984636009&text=Olá Darlan, queria fazer um pedido de um ${modelo}`)
  }
   
- //55818463600
+ //558184636009
 
  // Pega os IDS dos produtos
- let numberKey =  +e.target.dataset.key
- let productos = tenis.filter(x=>x.id == numberKey)
+ let numberKey =  +z.target.dataset.key
+ let productos = bermudas.filter(e=>e.id == numberKey)
 //--------------------------------------------------
 
  //gera o modal dinamicamente 
@@ -32,7 +32,7 @@ document.body.addEventListener('click',(e)=>{
 let viewModal = productos.map(item=>{
 
   console.log(productos)
-  bodyModal.innerHTML =`
+  tudoModal.innerHTML =`
   
   <div id="fade" class=""></div>
   <div id="modal" class="modal">
@@ -54,10 +54,10 @@ let viewModal = productos.map(item=>{
 })
 })
 
-// aqui gera a lista dos  tenis dinamicamente 
+// aqui gera a lista das bermudas dinamicamente 
 
-viewSapatos= tenis.map(item=>{
-  sapatos.innerHTML += `
+viewBermudas += bermudas.map(item=>{
+  bermu.innerHTML += `
   <div id="q1">
   <h2 id="res1">${item.modelo}</h2>
   <div  style="background-image: url(${item.imagem})  ;"  id="perso1Img" class="foto-1"></div>
