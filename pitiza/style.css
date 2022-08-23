@@ -77,11 +77,11 @@ header a img {
   flex-direction: row;
 }
 .hero { 
-  width: 40%;
+  width: 30%;
   height: 100%;
 }
 .hero img { 
-  width:90%;
+  width:100%;
   height:100%
 }
 
@@ -187,7 +187,7 @@ header a img {
   }
   #conteudo-1 { 
     background-color: rgb(4 0 46 / 97%);    
-    width: 85%;
+    width: 95%;
     border-radius:10px;
     margin: auto;
     height: 1250px;
@@ -202,7 +202,7 @@ header a img {
   .hero img { 
     width:100%;
     height:100%;
-    margin-left:0px;
+    margin-left:10px;
 
   }
   
@@ -230,7 +230,7 @@ header a img {
     text-align: center; 
   }
   .direito .botao { 
-    width:300px;
+    width:350px;
     height: 60px;
     font-size: 1.4rem;
     font-family: 'Aboreto', cursive;  
